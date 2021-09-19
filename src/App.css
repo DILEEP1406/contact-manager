@@ -1,0 +1,167 @@
+.navbar{
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.4rem 1.2rem;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.brand-name{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.nav-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-actions div{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: white;
+    cursor: pointer;
+}
+
+.contacts{
+    padding: 0 0.6rem;
+}
+
+.no-contact-msg{
+    font-size: 1.2rem;
+}
+
+.page-title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 0.6rem 0;
+}
+
+.page-title span{
+    color: red;
+}
+
+#cards{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 340px);
+}
+
+.card{
+    padding: 0.4rem;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.contact-name{
+    font-size: 1.6rem;
+    color: green;
+}
+
+.card-actions{
+    display: flex;
+}
+
+.card-actions div{
+    font-size: 1.2rem;
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+
+.contact-email{
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+    display: flex;
+}
+
+.contact-email span:first-child{
+    font-weight: 800;
+    margin-right: 0.4rem;
+}
+
+.contact-mobileNumber{
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+}
+
+.contact-mobileNumber span:first-child{
+    font-weight: 800;
+}
+
+.truncate{
+    max-width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+
+a.navlink.active{
+    color: #888888;
+}
+
+.form{
+    padding: 0 0.6rem;
+    max-width: 480px;
+    width: 86%;
+    font-size: 16px;
+}
+
+/* Full-width input fields */
+input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.about{
+    padding: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.features{
+    margin-top: 0.8rem;
+}
+
+ul{
+    margin: 0.4rem;
+}
+
+
+
